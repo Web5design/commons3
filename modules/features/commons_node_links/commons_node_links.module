@@ -1,0 +1,45 @@
+<?php
+
+include_once('commons_node_links.features.inc');
+
+/**
+ *
+ * Implements hook init
+ */
+function commons_node_links_init(){
+  $module_path = drupal_get_path('module', 'commons_node_links');
+  drupal_add_css($module_path . '/css/commons_node_links.css');
+}
+
+
+
+/**
+ * Implements hook_theme().
+ */
+function commons_node_links_theme() {
+  return array(
+    'commons_node_links_custom_group' => array(
+      'arguments' => array('list_name' => NULL, 'links' => array(), 'config' => array(), 'options' => array(), 'start' => TRUE),
+      'file' => 'commons_node_links.theme.inc',
+  ),
+    'commons_node_links_custom_group_item' => array(
+      'arguments' => array('links' => array(), 'config' => array(), 'options' => array()),
+      'file' => 'commons_node_links.theme.inc',
+  )
+  );
+}
+
+/**
+ * Implements hook_theme_registry_alter().
+ *
+ * Overrides node_link_style hooks.
+ *
+ */
+function commons_node_links_theme_registry_alter(&$theme_registry) {
+  if (isset($theme_registry['node_link_style_custom_group'])) {
+    $theme_registry['node_link_style_custom_group']['function'] = 'theme_commons_node_links_custom_group';
+  }
+  if (isset($theme_registry['node_link_style_custom_group'])) {
+    $theme_registry['node_link_style_custom_group_item']['function'] = 'theme_commons_node_links_custom_group_item';
+  }
+}
