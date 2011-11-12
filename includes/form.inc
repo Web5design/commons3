@@ -149,6 +149,12 @@ function drupal_commons_features_form(&$form_state, $url) {
     '#default_value' => 1,
     '#description' => st('Bundles all SEO-oriented capabilities in a module separate from Commons Core (for ease of administration).'),
   );
+  $form['misc']['feature-commons_node_links'] = array(
+      '#type' => 'checkbox',
+      '#title' => st('Styled Node Links'),
+      '#default_value' => 1,
+      '#description' => st('Modifies the display of node links. Secondary node links are grouped in a drop down'),
+  );
   
   // Acquia features
   $form['acquia'] = array(
