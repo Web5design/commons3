@@ -464,7 +464,7 @@ function drupal_commons_config_vars() {
  * Configure tidy node links
  */
 function drupal_commons_config_tidy_node_links() {
-  $theme = variable_get('theme_default');
+  $theme = variable_get('theme_default','garland');
   if ($theme=='commons_origins') {
     drupal_install_modules(array('tidy_node_links'));
   }
