@@ -144,7 +144,8 @@ function drupal_commons_profile_tasks(&$task, $url) {
     $operations[] = array('drupal_commons_config_views', array());
     $operations[] = array('drupal_commons_config_images', array());
     $operations[] = array('drupal_commons_config_vars', array());
-  
+    $operations[] = array('drupal_commons_config_tidy_node_links', array());
+
     // Build the batch process
     $batch = array(
       'operations' => $operations,
