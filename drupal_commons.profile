@@ -460,6 +460,18 @@ function drupal_commons_config_vars() {
 }
 
 /**
+ * Configure tidy node links
+ */
+function drupal_commons_config_tidy_node_links() {
+  $theme = variable_get('theme_default');
+  if ($theme=='origins') {
+    drupal_install_modules(array('tidy_node_links'));
+  }
+}
+
+
+
+/**
  * Create an initial group with a discussion
  */
 function drupal_commons_create_group() {
