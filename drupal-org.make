@@ -351,7 +351,9 @@ projects[commons_wikis][version] = "3.x-dev"
 
 projects[commons_wysiwyg][type] = "module"
 projects[commons_wysiwyg][subdir] = "contrib"
-projects[commons_wysiwyg][version] = "3.x-dev"
+projects[commons_wysiwyg][download][type] = "git"
+projects[commons_wysiwyg][download][url] = "http://git.drupal.org/project/commons_wysiwyg.git"
+projects[commons_wysiwyg][download][branch] = "ckeditor"
 
 projects[commons_topics][type] = "module"
 projects[commons_topics][subdir] = "contrib"
