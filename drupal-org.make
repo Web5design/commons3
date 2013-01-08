@@ -301,8 +301,11 @@ projects[commons_pages][subdir] = "contrib"
 projects[commons_pages][version] = "3.x-dev"
 
 projects[commons_posts][subdir] = "contrib"
-projects[commons_posts][version] = "3.x-dev"
 projects[commons_posts][type] = "module"
+projects[commons_posts][download][type] = "git"
+projects[commons_posts][download][url] = "http://git.drupal.org/project/commons_posts.git"
+projects[commons_posts][download][branch] = "7.x-3.x"
+
 
 projects[commons_polls][type] = "module"
 projects[commons_polls][subdir] = "contrib"
