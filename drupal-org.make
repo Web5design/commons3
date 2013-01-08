@@ -64,7 +64,6 @@ projects[entityreference][subdir] = "contrib"
 
 projects[edit_profile][type] = "module"
 projects[edit_profile][subdir] = "contrib"
-projects[edit_profile][version] = "1.x-dev"
 
 projects[entityreference_prepopulate][type] = "module"
 projects[entityreference_prepopulate][subdir] = "contrib"
@@ -301,9 +300,9 @@ projects[commons_pages][type] = "module"
 projects[commons_pages][subdir] = "contrib"
 projects[commons_pages][version] = "3.x-dev"
 
-projects[commons_posts][type] = "module"
 projects[commons_posts][subdir] = "contrib"
 projects[commons_posts][version] = "3.x-dev"
+projects[commons_posts][type] = "module"
 
 projects[commons_polls][type] = "module"
 projects[commons_polls][subdir] = "contrib"
