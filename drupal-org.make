@@ -94,6 +94,9 @@ projects[admin_icons][version] = "1.x-dev"
 projects[admin_icons][type] = "module"
 projects[admin_icons][subdir] = "contrib"
 
+projects[libraries][type] = "module"
+projects[libraries][subdir] = "contrib"
+
 projects[link][type] = "module"
 projects[link][subdir] = "contrib"
 
@@ -381,11 +384,11 @@ projects[commons_origins][subdir] = "contrib"
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
 
 libraries[ckeditor][download[type] = "get"
-libraries[ckeditor][download[destination] = "modules/contrib/ckeditor"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0/ckeditor_4.0_standard.tar.gz"
+libraries[ckeditor][type] = "libraries"
 
 libraries[timeago][download][type] = "get"
-libraries[timeago][destination] = "modules/contrib"
+libraries[timeago][type] = "libraries"
 ; We'd like to switch to a specific commit hash,
 ; pending http://drupal.org/node/1821996#comment-6678062.
 libraries[timeago][download][url] = "https://raw.github.com/rmm5t/jquery-timeago/master/jquery.timeago.js"

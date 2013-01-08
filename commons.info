@@ -44,6 +44,7 @@ dependencies[] = panels
 dependencies[] = pathauto
 dependencies[] = quicktabs
 dependencies[] = r4032login
+dependencies[] = libraries
 dependencies[] = radioactivity
 dependencies[] = realname
 dependencies[] = redirect
