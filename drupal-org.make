@@ -12,10 +12,6 @@ projects[acquia_connector][subdir] = "contrib"
 projects[advancedqueue][type] = "module"
 projects[advancedqueue][subdir] = "contrib"
 
-projects[aloha][version] = "2.x-dev"
-projects[aloha][type] = "module"
-projects[aloha][subdir] = "contrib"
-
 projects[apachesolr][type] = "module"
 projects[apachesolr][subdir] = "contrib"
 
@@ -26,6 +22,9 @@ projects[apachesolr_og][subdir] = "contrib"
 projects[connector][version] = "1.x-dev"
 projects[connector][type] = "module"
 projects[connector][subdir] = "contrib"
+
+projects[ckeditor][type] = "module"
+projects[ckeditor][subdir] = "contrib"
 
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
@@ -95,10 +94,6 @@ projects[http_client][subdir] = "contrib"
 projects[admin_icons][version] = "1.x-dev"
 projects[admin_icons][type] = "module"
 projects[admin_icons][subdir] = "contrib"
-
-projects[jquery_update][version] = "2.x-dev"
-projects[jquery_update][type] = "module"
-projects[jquery_update][subdir] = "contrib"
 
 projects[link][type] = "module"
 projects[link][subdir] = "contrib"
@@ -380,6 +375,10 @@ projects[commons_origins][subdir] = "contrib"
 
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
+
+libraries[ckeditor][download[type] = "get"
+libraries[ckeditor][download[destination] = "modules/contrib/ckeditor"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0/ckeditor_4.0_standard.tar.gz"
 
 libraries[timeago][download][type] = "get"
 libraries[timeago][destination] = "modules/contrib"
