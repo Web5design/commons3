@@ -383,7 +383,7 @@ projects[commons_origins][subdir] = "contrib"
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
 
-libraries[ckeditor][download[type] = "get"
+libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0/ckeditor_4.0_standard.tar.gz"
 libraries[ckeditor][type] = "libraries"
 
