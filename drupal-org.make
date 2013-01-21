@@ -25,9 +25,12 @@ projects[connector][subdir] = "contrib"
 
 projects[ckeditor][type] = "module"
 projects[ckeditor][subdir] = "contrib"
+projects[ckeditor][download][type] = "git"
+projects[ckeditor][download][url] = "http://git.drupal.org/project/ckeditor.git"
 ; Use Libraries API for ckeditor
 ; http://drupal.org/node/1063482#comment-6964504
-projects[ckeditor][version] = "f6abbda"
+projects[ckeditor][download][branch] = "7.x-3.x"
+projects[ckeditor][revision] = "f6abbda"
 
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
