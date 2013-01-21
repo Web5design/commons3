@@ -25,6 +25,9 @@ projects[connector][subdir] = "contrib"
 
 projects[ckeditor][type] = "module"
 projects[ckeditor][subdir] = "contrib"
+; Use Libraries API for ckeditor
+; http://drupal.org/node/1063482#comment-6964504
+projects[ckeditor][version] = "f6abbda"
 
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
