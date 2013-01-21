@@ -19,6 +19,9 @@ projects[apachesolr_og][version] = "1.x-dev"
 projects[apachesolr_og][type] = "module"
 projects[apachesolr_og][subdir] = "contrib"
 
+projects[apachesolr_proximity][type] = "module"
+projects[apachesolr_proximity][subdir] = "contrib"
+
 projects[connector][version] = "1.x-dev"
 projects[connector][type] = "module"
 projects[connector][subdir] = "contrib"
@@ -212,6 +215,12 @@ projects[sharethis][subdir] = "contrib"
 
 projects[facetapi][type] = "module"
 projects[facetapi][subdir] = "contrib"
+
+projects[rich_snippets][type] = "module"
+projects[rich_snippets][subdir] = "contrib"
+
+projects[schemaorg][type] = "module"
+projects[schemaorg][subdir] = "contrib"
 
 projects[strongarm][version] = "2.x-dev"
 projects[strongarm][type] = "module"
