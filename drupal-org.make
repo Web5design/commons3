@@ -255,6 +255,9 @@ projects[timeago][version] = "2.x-dev"
 ; http://drupal.org/node/1427226#comment-6638836
 projects[timeago][patch][] = "http://drupal.org/files/1427226-timeago-date-type.patch"
 
+projects[tinynav][type] = "module"
+projects[tinynav][subdir] = "contrib"
+
 projects[title][type] = "module"
 projects[title][subdir] = "contrib"
 
@@ -427,3 +430,7 @@ libraries[timeago][type] = "libraries"
 ; We'd like to switch to a specific commit hash,
 ; pending http://drupal.org/node/1821996#comment-6678062.
 libraries[timeago][download][url] = "https://raw.github.com/rmm5t/jquery-timeago/master/jquery.timeago.js"
+
+libraries[tinynav][download][type] = "get"
+libraries[tinynav][download][url] = "http://raw.github.com/viljamis/TinyNav.js/master/tinynav.js"
+libraries[tinynav][type] = "libraries"

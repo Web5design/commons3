@@ -57,6 +57,7 @@ dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = views_ui
 dependencies[] = votingapi
+dependencies[] = tinynav
 dependencies[] = advancedqueue
 dependencies[] = ckeditor
 dependencies[] = commons_activity_streams
