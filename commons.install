@@ -20,6 +20,12 @@ function commons_install() {
   variable_set('admin_theme', 'adaptivetheme_admin');
   variable_set('node_admin_theme', FALSE);
 
+  variable_set('tinynav_active_class', "active-trail");
+  variable_set('tinynav_css_selector', "#zone-menu .region-menu ul.menu, #toolbar-menu");
+  variable_set('tinynav_header', 0);
+  variable_set('tinynav_media_query', "all and (max-width:780px)");
+
+
   // Set a default user avatar.
 
   // Place site blocks in the menu_bar and header regions.
