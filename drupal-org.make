@@ -432,5 +432,6 @@ libraries[timeago][type] = "libraries"
 libraries[timeago][download][url] = "https://raw.github.com/rmm5t/jquery-timeago/master/jquery.timeago.js"
 
 libraries[tinynav][download][type] = "get"
+; We pin to a specific commit since 1.0.4 requires jQuery update.
 libraries[tinynav][download][url] = "http://raw.github.com/viljamis/TinyNav.js/fcdefb7ddc18ab941ef84fd698dc590bb44d1b85/tinynav.js"
 libraries[tinynav][type] = "libraries"
