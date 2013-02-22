@@ -23,7 +23,7 @@ function commons_install() {
   // Configure TinyNav module.
   variable_set('tinynav_active_class', "active-trail");
   variable_set('tinynav_css_selector', "#zone-menu .region-menu ul.menu, #toolbar-menu");
-  variable_set('tinynav_header', 0);
+  variable_set('tinynav_header', 1);
   variable_set('tinynav_media_query', "all and (max-width:780px)");
 
   // Set a default user avatar.
